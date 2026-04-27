@@ -35,14 +35,3 @@ def calculate_subnet(network_entry) -> dict:
         "usable_addresses": usable,
         "host_range": host_range,
     }
-
-
-labels = {
-    "network_address": "Network Address",
-    "broadcast_address": "Broadcast Address",
-    "netmask": "Subnet Mask",
-    "hostmask": "Host Mask",
-    "number_of_addresses": "Total Addresses",
-    "usable_addresses": "Usable Addresses",
-    "host_range": "Host Range",
-}
