@@ -2,7 +2,8 @@ import ipaddress
 
 
 def check_if_valid_entry(network_entry) -> bool:
-
+    if not isinstance(network_entry, str):
+        return False
     try:
         ipaddress.ip_network(network_entry, strict=False)
         return True
